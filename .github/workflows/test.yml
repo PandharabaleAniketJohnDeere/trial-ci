@@ -1,4 +1,4 @@
-name: Pull Request Target
+name: Test Job
 
 on:
   pull_request_target:
