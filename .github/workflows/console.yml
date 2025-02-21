@@ -1,4 +1,4 @@
-name: Pull Request Target
+name: Console Log
 
 on:
   pull_request_target:
@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print message to console
-        run: echo "Hello, this is a console log message!"
+        run: echo "MAIN branch"
